@@ -154,43 +154,6 @@ header {
                         }
                     }
 
-                    .system-mode {
-                        display: flex;
-                        justify-content: flex-end;
-                        margin-bottom: 20px;
-
-                        button {
-                            font-size: $globalFontSize;
-                            width: 50px;
-                            height: 50px;
-                            border-radius: 30px;
-                            background-size: 30px;
-                            background-repeat: no-repeat;
-                            background-position: center;
-                            display: none;
-
-                            &.on {
-                                display: block;
-                            }
-
-                            &.dark-mode {
-                                background-color: #303078;
-                                background-image: url(../../images/moon-solid-240.png);
-                                &:hover{
-                                    background-color:#1e1d3e;
-                                }
-                            }
-
-                            &.light-mode {
-                                background-color: #fff;
-                                background-image: url(../../images/sun-solid-240.png);
-                                &:hover{
-                                    background-color:#999;
-                                }
-                            }
-                        }
-                    }
-
                     .copyright_gnb {
                         font-size: $globalFontSize;
                         text-align: right;

@@ -281,38 +281,6 @@ header .inner nav .mobile-wrap .mobile-gnb-box .mobile-gnb-list a:hover:before {
   border-radius: 50%;
   margin-right: 14px;
 }
-header .inner nav .mobile-wrap .mobile-gnb-box .system-mode {
-  display: flex;
-  justify-content: flex-end;
-  margin-bottom: 20px;
-}
-header .inner nav .mobile-wrap .mobile-gnb-box .system-mode button {
-  font-size: 16px;
-  width: 50px;
-  height: 50px;
-  border-radius: 30px;
-  background-size: 30px;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: none;
-}
-header .inner nav .mobile-wrap .mobile-gnb-box .system-mode button.on {
-  display: block;
-}
-header .inner nav .mobile-wrap .mobile-gnb-box .system-mode button.dark-mode {
-  background-color: #303078;
-  background-image: url(../../images/moon-solid-240.png);
-}
-header .inner nav .mobile-wrap .mobile-gnb-box .system-mode button.dark-mode:hover {
-  background-color: #1e1d3e;
-}
-header .inner nav .mobile-wrap .mobile-gnb-box .system-mode button.light-mode {
-  background-color: #fff;
-  background-image: url(../../images/sun-solid-240.png);
-}
-header .inner nav .mobile-wrap .mobile-gnb-box .system-mode button.light-mode:hover {
-  background-color: #999;
-}
 header .inner nav .mobile-wrap .mobile-gnb-box .copyright_gnb {
   font-size: 16px;
   text-align: right;
@@ -878,56 +846,6 @@ main .inner .contact-container .contact-wrap .contact-box .contact-title.hov:aft
   width: 100%;
 }
 
-aside {
-  position: fixed;
-  right: 40px;
-  bottom: 40px;
-  z-index: 99;
-  transition: right 300ms;
-}
-aside.on {
-  right: 40px;
-}
-aside > * {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  transition: 300ms;
-}
-aside .top-btn {
-  background: #666;
-  display: block;
-  font-size: 30px;
-  font-weight: 500;
-  line-height: 46px;
-  text-align: center;
-  color: #fff;
-  margin-bottom: 10px;
-}
-aside .top-btn:hover {
-  background: #444;
-}
-aside .dark-mode {
-  display: none;
-  background: #303078 url(../../images/moon-solid-240.png) no-repeat center/30px;
-}
-aside .dark-mode:hover {
-  background-color: #1e1d3e;
-}
-aside .dark-mode.on {
-  display: block;
-}
-aside .light-mode {
-  display: none;
-  background: #fff url(../../images/sun-solid-240.png) no-repeat center/30px;
-}
-aside .light-mode:hover {
-  background-color: #999;
-}
-aside .light-mode.on {
-  display: block;
-}
-
 @media (max-width: 1024px) {
   main .inner .about-container .about-wrap {
     align-items: flex-start;
@@ -1074,18 +992,6 @@ aside .light-mode.on {
     flex-direction: column;
     align-items: center;
     gap: 150px;
-  }
-  aside.on {
-    right: 20px;
-  }
-  aside > * {
-    width: 40px;
-    height: 40px;
-    transition: 300ms;
-  }
-  aside .top-btn {
-    font-size: 26px;
-    line-height: 38px;
   }
 }
 footer {

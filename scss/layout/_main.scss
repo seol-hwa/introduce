@@ -638,66 +638,6 @@ main {
     }
 }
 
-aside {
-    position: fixed;
-    // right:-100px;
-    right: 40px;
-    bottom: 40px;
-    z-index: 99;
-    transition: right 300ms;
-
-    &.on {
-        right: 40px;
-    }
-
-    >* {
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        transition: 300ms;
-    }
-
-    .top-btn {
-        background: $lightColor;
-        display: block;
-        font-size: 30px;
-        font-weight: 500;
-        line-height: 46px;
-        text-align: center;
-        color: #fff;
-        margin-bottom: 10px;
-
-        &:hover {
-            background: #444;
-        }
-    }
-
-    .dark-mode {
-        display: none;
-        background: #303078 url(../../images/moon-solid-240.png) no-repeat center/30px;
-
-        &:hover {
-            background-color: #1e1d3e;
-        }
-
-        &.on {
-            display: block;
-        }
-    }
-
-    .light-mode {
-        display: none;
-        background: #fff url(../../images/sun-solid-240.png) no-repeat center/30px;
-
-        &:hover {
-            background-color: #999;
-        }
-
-        &.on {
-            display: block;
-        }
-    }
-}
 
 @media (max-width:1024px) {
     main {
@@ -966,20 +906,4 @@ aside {
         }
     }
 
-    aside {
-        &.on {
-            right: 20px;
-        }
-
-        >* {
-            width: 40px;
-            height: 40px;
-            transition: 300ms;
-        }
-
-        .top-btn {
-            font-size: 26px;
-            line-height: 38px;
-        }
-    }
 }
