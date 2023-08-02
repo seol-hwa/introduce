@@ -1,0 +1,13 @@
+@mixin shortening($line,$lineHeight){
+    overflow: hidden;
+    text-overflow: ellipsis;
+    @if($line > 1){
+        line-height: $lineHeight;
+        max-height: $lineHeight*$line;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: $line;
+    }@else{
+        white-space: nowrap;
+    }
+}

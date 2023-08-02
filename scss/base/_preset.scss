@@ -1,0 +1,106 @@
+.skip-menu {
+    position: relative;
+
+    a {
+        position: absolute;
+        z-index: 999;
+        top: -100px;
+        left: 10px;
+        padding: 8px 15px;
+        background: $subColor;
+        color: $mainColor;
+        font-weight: bold;
+        border-radius: 30px;
+        font-size: $globalFontSize;
+
+        &:focus {
+            top: 10px;
+            outline: none;
+        }
+    }
+}
+
+.blind {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px);
+    z-index: -1;
+    border: none;
+}
+
+.inner {
+    max-width: 1500px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+
+    &.on {
+        padding: 0 36px;
+    }
+}
+
+//font
+@font-face {
+    font-family: 'NotoSansKR';
+    src: local('Noto Sans KR'),
+        local('NotoSansKR'),
+        url('../../font/Noto_Sans_KR/NotoSansKR-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'NotoSansKR';
+    src: local('Noto Sans KR'),
+        local('NotoSansKR'),
+        url('../../font/Noto_Sans_KR/NotoSansKR-Thin.otf') format('opentype');
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'NotoSansKR';
+    src: local('Noto Sans KR'),
+        local('NotoSansKR'),
+        url('../../font/Noto_Sans_KR/NotoSansKR-Light.otf') format('opentype');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'NotoSansKR';
+    src: local('Noto Sans KR'),
+        local('NotoSansKR'),
+        url('../../font/Noto_Sans_KR/NotoSansKR-Medium.otf') format('opentype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'NotoSansKR';
+    src: local('Noto Sans KR'),
+        local('NotoSansKR'),
+        url('../../font/Noto_Sans_KR/NotoSansKR-Bold.otf') format('opentype');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'NotoSansKR';
+    src: local('Noto Sans KR'),
+        local('NotoSansKR'),
+        url('../../font/Noto_Sans_KR/NotoSansKR-Black.otf') format('opentype');
+    font-weight: 900;
+}
+
+body,
+html {
+    font-family: 'NotoSansKR';
+    background: $mainColor;
+    scroll-behavior: smooth;
+}
+
+@media (max-width:320px) {
+
+    body,
+    html {
+        width: 320px;
+    }
+}
