@@ -42,7 +42,7 @@ function header() {
 
         upContent.forEach(item => {
             const contentScroll = item.getBoundingClientRect().top;
-            if (mainHeight - 164 > contentScroll && contentScroll > -300) {
+            if (mainHeight - 164 > contentScroll) {
                 item.classList.add('on');
             } else {
                 item.classList.remove('on');
@@ -190,32 +190,6 @@ function contact(){
     })
 }
 
-function systemMode() {
-    const dark = document.querySelectorAll('.dark-mode');
-    const light = document.querySelectorAll('.light-mode');
-
-    dark.forEach(item => {
-        item.addEventListener('click', function () {
-            classAllRemove(dark, 'on');
-            light.forEach(all => {
-                all.classList.add('on');
-            })
-            // localStorage.setItem('color-theme', 'light');
-            // document.documentElement.setAttribute('color-theme', 'dark');
-        })
-    })
-    light.forEach(item => {
-        item.addEventListener('click', function () {
-            classAllRemove(light, 'on');
-            dark.forEach(all => {
-                all.classList.add('on');
-            })
-            // localStorage.setItem('color-theme', 'dark');
-            // document.documentElement.setAttribute('color-theme', 'light');
-        })
-    })
-
-}
 
 //declare
 function classAllRemove(target, class_name) {
