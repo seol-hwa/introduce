@@ -112,42 +112,42 @@ main {
             }
 
             .html5 {
-                background-image: url(../../images/html5-logo-240.png);
+                background-image: url(../images/html5-logo-240.png);
                 top: 10%;
                 left: 30%;
                 animation: shake 1000ms alternate infinite;
             }
 
             .css3 {
-                background-image: url(../../images/css3-logo-240.png);
+                background-image: url(../images/css3-logo-240.png);
                 bottom: 20%;
                 left: 30%;
                 animation: shake 800ms alternate infinite;
             }
 
             .js {
-                background-image: url(../../images/javascript-logo-240.png);
+                background-image: url(../images/javascript-logo-240.png);
                 top: 30%;
                 left: 50%;
                 animation: shake 800ms alternate-reverse infinite;
             }
 
             .git {
-                background-image: url(../../images/github-logo-240.png);
+                background-image: url(../images/github-logo-240.png);
                 top: 20%;
                 right: 15%;
                 animation: shake 1000ms alternate-reverse infinite;
             }
 
             .sass {
-                background-image: url(../../images/sass-logo-240.png);
+                background-image: url(../images/sass-logo-240.png);
                 top: 24%;
                 left: 15%;
                 animation: shake 1100ms alternate infinite;
             }
 
             .figma {
-                background-image: url(../../images/_Figma-logo.svg.png);
+                background-image: url(../images/_Figma-logo.svg.png);
                 bottom: 22%;
                 right: 30%;
                 animation: shake 1000ms alternate infinite;
