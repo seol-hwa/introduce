@@ -419,37 +419,37 @@ main .introduce-container .dot-box .dot.off {
   }
 }
 main .introduce-container .dot-box .html5 {
-  background-image: url(../../images/html5-logo-240.png);
+  background-image: url(../images/html5-logo-240.png);
   top: 10%;
   left: 30%;
   animation: shake 1000ms alternate infinite;
 }
 main .introduce-container .dot-box .css3 {
-  background-image: url(../../images/css3-logo-240.png);
+  background-image: url(../images/css3-logo-240.png);
   bottom: 20%;
   left: 30%;
   animation: shake 800ms alternate infinite;
 }
 main .introduce-container .dot-box .js {
-  background-image: url(../../images/javascript-logo-240.png);
+  background-image: url(../images/javascript-logo-240.png);
   top: 30%;
   left: 50%;
   animation: shake 800ms alternate-reverse infinite;
 }
 main .introduce-container .dot-box .git {
-  background-image: url(../../images/github-logo-240.png);
+  background-image: url(../images/github-logo-240.png);
   top: 20%;
   right: 15%;
   animation: shake 1000ms alternate-reverse infinite;
 }
 main .introduce-container .dot-box .sass {
-  background-image: url(../../images/sass-logo-240.png);
+  background-image: url(../images/sass-logo-240.png);
   top: 24%;
   left: 15%;
   animation: shake 1100ms alternate infinite;
 }
 main .introduce-container .dot-box .figma {
-  background-image: url(../../images/_Figma-logo.svg.png);
+  background-image: url(../images/_Figma-logo.png);
   bottom: 22%;
   right: 30%;
   animation: shake 1000ms alternate infinite;
@@ -498,7 +498,7 @@ main .inner .about-container .about-wrap .about-img {
   width: 240px;
   height: 240px;
   margin: 0 50px;
-  background: url(../../images/KakaoTalk_20230728_132203501.png) no-repeat center/240px;
+  background: url(../images/KakaoTalk_20230728_132203501.png) no-repeat center/240px;
 }
 main .inner .about-container .about-wrap .about-box {
   padding: 0 50px;
@@ -686,6 +686,18 @@ main .inner .portfolio-container .portfolio-box .portfolio-list li:nth-child(2).
 }
 main .inner .portfolio-container .portfolio-box .portfolio-list li:nth-child(3).on {
   animation: text_up 500ms 200ms linear both;
+}
+main .inner .portfolio-container .portfolio-box .portfolio-list li:nth-child(4).on {
+  animation: text_up 500ms 300ms linear both;
+}
+main .inner .portfolio-container .portfolio-box .portfolio-list li:nth-child(5).on {
+  animation: text_up 500ms 400ms linear both;
+}
+main .inner .portfolio-container .portfolio-box .portfolio-list li:nth-child(6).on {
+  animation: text_up 500ms 500ms linear both;
+}
+main .inner .portfolio-container .portfolio-box .portfolio-list li:nth-child(7).on {
+  animation: text_up 500ms 600ms linear both;
 }
 main .inner .portfolio-container .portfolio-box .portfolio-list li .portfolio-title {
   position: absolute;
@@ -1001,3 +1013,5 @@ footer .copyright_footer {
   color: #666;
   text-align: center;
 }
+
+/*# sourceMappingURL=common.css.map */
